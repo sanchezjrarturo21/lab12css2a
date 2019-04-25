@@ -1,5 +1,7 @@
 // Mammal.cpp
 #include "Mammal.h"
+#include <iostream>
+using namespace std;
 Mammal::Mammal():itsAge(1)
 {
 cout << "Mammal constructor..." << endl;
