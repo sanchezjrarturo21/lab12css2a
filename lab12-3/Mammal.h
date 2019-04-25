@@ -19,4 +19,22 @@ public:
   void move() const;
   void speak() const;
 };
+class Cat : public Mammal
+{
+public:
+  void move() const;
+  void speak() const;
+};
+class Horse : public Mammal
+{
+public:
+  void move() const;
+  void speak() const;
+};
+class GuineaPig : public Mammal
+{
+public:
+  void move() const;
+  void speak() const;
+};
 #endif
