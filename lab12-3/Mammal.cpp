@@ -24,3 +24,30 @@ void Dog::speak() const
 {
   cout << "Dog spOOOOOOOOKKKKK!!!" << endl;
 }
+
+void Cat::move() const
+{
+  cout << "Cat moves!!" << endl;
+}
+void Cat::speak() const
+{
+  cout << "Cat spOOOOOOOOKKKKK!!!" << endl;
+}
+
+void Horse::move() const
+{
+  cout << "Horse moves!!" << endl;
+}
+void Horse::speak() const
+{
+  cout << "Horse spOOOOOOOOKKKKK!!!" << endl;
+}
+
+void GuineaPig::move() const
+{
+  cout << "GuineaPig moves!!" << endl;
+}
+void GuineaPig::speak() const
+{
+  cout << "GuineaPig spOOOOOOOOKKKKK!!!" << endl;
+}
