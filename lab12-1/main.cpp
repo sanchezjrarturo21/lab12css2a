@@ -11,9 +11,3 @@ ptr -> testFunction (); // prints "Base class" because the base class
 delete ptr;
 return 0;
 }
-//Now modify the code with the following (all other code should remain the same).
-class Base
-{
-public:
-virtual void testFunction ();
-};
