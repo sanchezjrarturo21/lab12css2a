@@ -2,7 +2,7 @@
 #include "Mammal.h"
 #include <iostream>
 using namespace std;
-Mammal::Mammal():itsAge(1)
+ Mammal::Mammal():itsAge(1)
 {
 cout << "Mammal constructor..." << endl;
 }
@@ -52,4 +52,36 @@ void GuineaPig::move() const
 void GuineaPig::speak() const
 {
   cout << "GuineaPig spOOOOOOOOKKKKK!!!" << endl;
+}
+Dog::Dog()
+{
+  cout << "Dog constructor..." << endl;
+}
+Dog::~Dog()
+{
+  cout << "Dog destructor..." << endl;
+}
+Cat::Cat()
+{
+  cout << "Cat constructor..." << endl;
+}
+Cat::~Cat()
+{
+  cout << "Cat destructor..." << endl;
+}
+Horse::Horse()
+{
+  cout << "Horse constructor..." << endl;
+}
+Horse::~Horse()
+{
+  cout << "Horse destructor..." << endl;
+}
+GuineaPig::GuineaPig()
+{
+  cout << "GuineaPig constructor..." << endl;
+}
+GuineaPig::~GuineaPig()
+{
+  cout << "GuineaPig destructor..." << endl;
 }
