@@ -1,3 +1,9 @@
+/*
+  Josue Guerrero
+  main.cpp
+  program which has one base class and multiple derived classes, which the base class has virtual functions
+  4/25/2019
+*/
 #include <iostream>
 #include "Mammal.h"
 using namespace std;
