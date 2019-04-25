@@ -1,3 +1,6 @@
+#include <iostream>
+#include "Mammal.h"
+using namespace std;
 int main ()
 {
 Mammal* theArray[5];
@@ -30,9 +33,6 @@ theArray[i]->speak();
 // Always free dynamically allocated objects
 for (int i = 0; i < 5; i++)
 {
-CSS2A Page 4 of 5
-Lab 12
-Lab 12
 delete theArray[i];
 }
 return 0;
