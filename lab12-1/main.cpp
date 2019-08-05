@@ -9,5 +9,6 @@ ptr = new Derived;
 ptr -> testFunction (); // prints "Base class" because the base class
 // function is not virtual
 delete ptr;
+std::cout << "cool" << std::endl;
 return 0;
 }
